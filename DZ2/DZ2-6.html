@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <script>
+        var a = 4, b = 7;
+        function sum(f1, f2) {
+            return f1 + f2;
+        }
+        function difference(f1, f2) {
+            return f1 - f2;
+        }
+        function product(f1, f2) {
+            return f1 * f2;
+        }
+        function quotient(f1, f2) {
+            return f1 / f2;
+        }
+        function mathOperation(arg1, arg2, operation) {
+            switch (operation) {
+                case "sum": return sum(arg1, arg2); break;
+                case "difference": return difference(arg1, arg2); break;
+                case "product": return product(arg1, arg2); break;
+                case "quotient": return quotient(arg1, arg2); break;
+                default: return ("не могу разобрать операцию"); break;
+            }
+        }
+        alert(mathOperation(a,b,"product"));
+    </script>
+    
+</body>
+</html>
