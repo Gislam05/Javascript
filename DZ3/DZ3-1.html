@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <script>
+        function prostoe(number) {
+            let k = 2;
+            while (k <= number / 2)
+            {                
+                if (number % k == 0) return false;
+                k++;
+            }
+            return true;
+        }
+        for (let i = 0; i <= 100; i++) {
+            if (prostoe(i)) console.log(i);
+        }
+    </script>
+</body>
+</html>
