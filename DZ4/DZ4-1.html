@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <script>
+        let N = 461;
+        let NObject = ToObject(N);
+        function ToObject(number) {
+            let object = {
+                hundreds: Math.floor(number / 100),
+                tens: Math.floor((number % 100) / 10),
+                units: (number % 100) % 10
+            }
+            return object;
+        }
+        if (N > 0 && N < 1000) { console.log("hundreds: " + NObject.hundreds); console.log("tens: " + NObject.tens); console.log("units: " + NObject.units); }
+        else console.log("Число вне диапозона");
+    </script>
+</body>
+</html>
