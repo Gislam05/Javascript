@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <script>
+        let Videokarta = { Model: 'RTX 3080', Cena: 25000, Count: 5 };
+        let Processor = { Model: 'Core i7 7700K', Cena: 10000, Count: 5 };
+        let Motherboard = { Model: 'Prime b250 plus', Cena: 4000, Count: 5 };
+        let Korzina = [];
+        Korzina.push(Videokarta);
+        Korzina.push(Processor);
+        Korzina.push(Motherboard);
+        
+        function countBasketPrice(massiv) {
+            let sum = 0;
+            for (let i of massiv) {
+                sum += (i.Cena * i.Count)
+            }
+            return sum;
+        }
+        console.log(countBasketPrice(Korzina))
+    </script>
+</body>
+</html>
