@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2B0B2115-C7B2-49C2-AB64-A56B5D48158D}"
+	ProjectSection(SolutionItems) = preProject
+		DZ7-1.html = DZ7-1.html
+		DZ7-2.html = DZ7-2.html
+		DZ7-3.html = DZ7-3.html
+		DZ7-4.html = DZ7-4.html
+		DZ7-5.html = DZ7-5.html
+		DZ7-6.html = DZ7-6.html
+		DZ7-7.html = DZ7-7.html
+		DZ7-8.html = DZ7-8.html
+		DZ7-9.html = DZ7-9.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F3C28B4-3E95-4DE1-A57F-36158E69392D}
+	EndGlobalSection
+EndGlobal
